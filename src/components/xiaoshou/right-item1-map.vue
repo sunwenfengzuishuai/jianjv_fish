@@ -20,10 +20,7 @@
 
 // 指定图表的配置项和数据
             let option = {
-              title : {
-                text: '电商平台销量',
-                x:'center'
-              },
+
               tooltip : {
                 trigger: 'item',
                 formatter: "{a} <br/>{b} : {c} ({d}%)"
@@ -64,7 +61,7 @@
 <style scoped>
   .right-item1{
     width: 100%;
-    height: 100%;
+    height: 70%;
     background-color: #fff;
   }
 </style>

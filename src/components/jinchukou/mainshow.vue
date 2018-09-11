@@ -5,7 +5,7 @@
                 display: flex;
                 justify-content: space-around;
         }
-            .left-cont, .center-cont, .right-cont{
+            .left-cont, .right-cont{
                 margin-top: 2%;
                 width: 45%;
                 height: 80%;
@@ -15,7 +15,7 @@
             }
             .left-cont{
                 position: relative;
-                background-color: #aff;
+                background-color: #fff;
             }
             .left-item1{
                 width: 100%;
@@ -37,6 +37,12 @@
                 height: 100%;
                 background-color: #fff;
             }
+            .item-name-cont-01{
+              margin-top: 55px;
+            }
+            .item-name-cont-02{
+              margin-top: -35px;
+            }
 
 </style>
 
@@ -44,9 +50,15 @@
     <div class="index-cont w">
         <div class="left-cont">
             <div class="left-item1" >
+              <div class="item-name-cont">
+                <span>全球罗非鱼进出口市场</span>
+              </div>
               <leftItem1></leftItem1>
             </div>
-            <div class="left-item2" >
+            <div class="left-item2 item-name-cont-02" >
+              <div class="item-name-cont item-name-cont-01">
+                <span>中国罗非鱼片出口总量</span>
+              </div>
               <leftItem2></leftItem2>
             </div>
         </div>
@@ -54,6 +66,9 @@
         <div class="right-cont">
 
             <div class="right-item2" >
+              <div class="item-name-cont">
+                <span>全球罗非鱼进出口示意图</span>
+              </div>
               <rightItem2></rightItem2>
             </div>
         </div>
@@ -79,10 +94,10 @@
         },
         mounted(){      //async 异步请求
            //进口
-
+          console.log(window.history);
         },
         methods: {
-           
+
         },
     }
 </script>

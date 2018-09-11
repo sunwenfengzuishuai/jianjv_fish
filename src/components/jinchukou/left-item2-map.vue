@@ -20,16 +20,19 @@
 
 
             let option = {
-              title : {
-                text: '中国冻罗非鱼片出口总量',
-                x:'center'
-              },
               xAxis: {
                 type: 'category',
                 data: ['2012', '2013', '2014', '2015', '2016']
               },
               yAxis: {
                 type: 'value'
+              },
+              grid:{
+                x:80,
+                y:10,
+                x2:45,
+                y2:150,
+                borderWidth:1
               },
               series: [{
                 data: [179348, 181871, 170372, 153252, 146391],

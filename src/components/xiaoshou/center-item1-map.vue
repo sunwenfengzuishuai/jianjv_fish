@@ -20,9 +20,6 @@
 
 // 指定图表的配置项和数据
             let option = {
-              title: {
-                text: '电商平台价格'
-              },
 
               legend: {
                 data: ['销量']

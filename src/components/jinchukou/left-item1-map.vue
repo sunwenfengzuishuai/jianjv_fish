@@ -20,10 +20,6 @@
           initMap(){
             let myChart = echarts.init(document.getElementById('jinCKLI1'))
             let option = {
-              title : {
-                text: '全球冻罗非鱼进出口市场',
-                x:'center'
-              },
               tooltip : {
                 trigger: 'axis',
                 axisPointer : {            // 坐标轴指示器，坐标轴触发有效
@@ -38,7 +34,7 @@
               grid: {
                 left: '3%',
                 right: '4%',
-                bottom: '3%',
+                bottom: '13%',
                 containLabel: true
               },
               xAxis : [
@@ -88,7 +84,7 @@
 <style scoped>
   .left-item1{
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-color: #fff;
   }
 </style>

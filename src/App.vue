@@ -152,6 +152,19 @@
       padding: 0px 0;
       background-color: #888;
     }
+  /*表头题目样式*/
+    .item-name-cont{
+      background-color: #168bd8;
+      font-family: yahei;
+      color: #fff;
+      height: 40px;
+      line-height: 40px;
+    }
+    .item-name-cont span{
+      font-size: 18px;
+      font-weight: bold;
+      padding-left: 14px;
+    }
 </style>
 
 <style scoped>

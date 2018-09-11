@@ -211,15 +211,7 @@
 
 // 最后初始化世界地图中的相关数据
         chart.setOption({
-          title: {
-            text: '进出口示意图',
-            textStyle: {
-              color: '#000',
-              fontSize: 24
-            },
-            top: '10px',
-            left: 'center'
-          },
+
           geo: {
             map: 'world',       // 与引用进来的地图js名字一致
             roam: false,        // 禁止缩放平移

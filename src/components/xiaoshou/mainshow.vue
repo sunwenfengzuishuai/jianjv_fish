@@ -56,30 +56,36 @@
 
 <template>
     <div class="index-cont w">
-        <!--<div class="left-cont">-->
-            <!--<div class="left-item1" id="main01">-->
-                <!--&lt;!&ndash; <serch-line-plus></serch-line-plus> &ndash;&gt;-->
 
-            <!--</div>-->
-            <!--<div class="left-item2">-->
-                <!--&lt;!&ndash; <index-breeding></index-breeding> &ndash;&gt;-->
-            <!--</div>-->
-        <!--</div>-->
         <div class="center-cont">
+
             <div class="center-item1" >
-                <!-- <luobo-pic></luobo-pic> -->
+              <div class="item-name-cont">
+                <span>电商平台价格</span>
+              </div>
               <centerItem1Map></centerItem1Map>
             </div>
+
             <div class="center-item2">
-              <!--<Table :columns="columns1" :data="data1"></Table>-->
+              <div class="item-name-cont">
+                <span>电商平台销售量</span>
+              </div>
               <germtable></germtable>
             </div>
         </div>
         <div class="right-cont">
+
             <div class="right-item1">
+              <div class="item-name-cont">
+                <span>电商平台价格</span>
+              </div>
               <rigthItem1Map></rigthItem1Map>
             </div>
+
             <div class="right-item2" >
+              <div class="item-name-cont">
+                <span>2013--2018年批发市场销量图</span>
+              </div>
               <rigthItem2Map></rigthItem2Map>
             </div>
         </div>

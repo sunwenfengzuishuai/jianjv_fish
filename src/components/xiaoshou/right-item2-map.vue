@@ -23,10 +23,10 @@
             // 指定图表的配置项和数据
             var option = {
               // 标题
-              title: {
-                text: '2013--2018年批发市场销量图',
-                left: 'center'
-              },
+              // title: {
+              //   text: '2013--2018年批发市场销量图',
+              //   left: 'center'
+              // },
               xAxis: {
                 data: ["2013", "2014", "2015", "2016", "2017", "2018"]
               },
@@ -47,7 +47,7 @@
 <style scoped>
   .right-item2{
     width: 100%;
-    height: 100%;
+    height: 120%;
     background-color: #fff;
   }
 </style>
