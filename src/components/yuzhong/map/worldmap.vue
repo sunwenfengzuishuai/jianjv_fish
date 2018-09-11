@@ -11,7 +11,7 @@
 
 <script>
 	import echarts from 'echarts';
-	import china from '../../../assets/js/china.js'
+	import world from '../../../assets/js/world'
 
 	export default {
 		// props: {
@@ -24,7 +24,7 @@
 		// 	allcoordinates: function(newValue, oldValue){
 		// 		// console.log(newValue);
 		// 		// alert(newValue);
-		// 		this.drawLine(newValue);		
+		// 		this.drawLine(newValue);
 		// 	},
 		// },
 		data() {
@@ -35,15 +35,15 @@
 				],
 			}
 		},
-		mounted() { 
+		mounted() {
 			this.drawLine(this.allcoordinates)
-	
+
 		},
 		methods: {
 			async drawLine(allcoordinates) {
 
 				var chart = echarts.init(document.getElementById("mian"));
-				
+
 				//this.makeMapData(rawData);
 				 var option = {
 				    backgroundColor: new echarts.graphic.RadialGradient(0.5, 0.5, 0.4, [{
@@ -63,7 +63,7 @@
 				        z: 200
 				    },
 				    geo: {
-				        map: 'china',
+				        map: 'world',
 				        silent: true,
 				        label: {
 				            emphasis: {
@@ -77,9 +77,9 @@
 				                borderColor: '#404a59'
 				            }
 				        },
-				        
+
 				        roam: true
-				       
+
 				    },
 				    series: [
 				        {
@@ -98,7 +98,7 @@
 				                    show: true
 				                }
 				            },
-				            symbolSize: 10,          
+				            symbolSize: 10,
 				            itemStyle: {
 				                normal: {
 				                    borderColor: '#fff',
